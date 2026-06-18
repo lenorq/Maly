@@ -1,0 +1,24 @@
+/*
+Theme Name: Maciej Małecki — Drawing Archive
+Theme URI: https://maciejmalecki.art
+Author: Studio build
+Author URI: https://maciejmalecki.art
+Description: Dark industrial-brutalist portfolio theme for the draughtsman Maciej Małecki. Ships an "Artwork" custom post type for catalogued plates, a HUD/telemetry frame, scroll reveals and an accessible lightbox. Block-aware, dependency-free, translation-ready (PL/EN).
+Version: 1.0.0
+Requires at least: 6.4
+Tested up to: 6.6
+Requires PHP: 7.4
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: maciej-malecki
+Tags: portfolio, art, custom-colors, block-styles, translation-ready, full-site-editing
+*/
+
+/*
+ * The full design system lives in /assets/css/style.css and is enqueued from
+ * functions.php (see mm_enqueue_assets). This file only carries the required
+ * WordPress theme header above, plus a couple of editor-safe fallbacks below.
+ */
+
+:root { --mm-bg: #0a0a0a; --mm-fg: #ececec; }
+body { background: var(--mm-bg); color: var(--mm-fg); }
